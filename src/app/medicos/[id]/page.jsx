@@ -1,4 +1,5 @@
 import connection from "@/lib/mysql";
+import Link from "next/link";
 
 async function PaginaMedico({params, searchParams}) {
     const {id} = await params;
@@ -9,6 +10,7 @@ async function PaginaMedico({params, searchParams}) {
             <p>{medico.nombre}</p>
             <p>{medico.localidad}</p>
             <p>{medico.fecha_nacimiento.toLocaleDateString()}</p>
+            <Link href={`/medicos/${medico.id}/modificar`} className="block text-blue-500">Modificar</Link>
         </div>
      );
 }
