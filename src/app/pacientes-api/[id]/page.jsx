@@ -27,8 +27,8 @@ async function PacientePage({ params }) {
             </h1>
             <div className="flex flex-col gap-10 items-center mt-20 p-10 bg-blue-100 rounded-xl">
                 <p className="text-6xl place-self-center">{paciente.nombre}</p>
-                <p className="text-2xl place-self-center text-slate-400">{paciente.descripcion}</p>
-                <p className="text-7xl place-self-center text-blue-400 *:font-bold">{paciente.precio} €</p>
+                <p className="text-2xl place-self-center text-slate-400">{paciente.localidad}</p>
+                <p className="text-7xl place-self-center text-blue-400 *:font-bold">{paciente.fecha_nacimiento}</p>
             </div>
         </section>
     );
