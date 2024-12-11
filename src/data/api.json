@@ -9,13 +9,13 @@
     {
       "id": "2",
       "nombre": "Jaime",
-      "especialiad": "traumatologo",
+      "especialidad": "traumatologo",
       "perfil": "especialista"
     },
     {
       "id": "3",
       "nombre": "Raul",
-      "especialiad": "dermatologo",
+      "especialidad": "dermatologo",
       "perfil": "residente"
     }
   ],
@@ -36,6 +36,12 @@
       "id": "3",
       "nombre": "Carlos",
       "localidad": "Quebec",
+      "fecha_nacimiento": "1990-01-01"
+    },
+    {
+      "id": "6cab",
+      "nombre": "Jaime 2",
+      "localidad": "Montilla",
       "fecha_nacimiento": "1990-01-01"
     }
   ]
