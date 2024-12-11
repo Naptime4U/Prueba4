@@ -1,0 +1,44 @@
+{
+    "medicos": [
+      {
+        "id": "1",
+        "nombre": "Ivan",
+        "especialidad": "atencion primaria",
+        "perfil": "residente"
+      },
+      {
+        "id": "2",
+        "nombre": "Jaime",
+        "especialiad": "traumatologo",
+        "perfil": "especialista"
+      },
+      {
+        "id": "3",
+        "nombre": "Raul",
+        "especialiad": "dermatologo",
+        "perfil": "residente"
+      }
+    ],
+    "pacientes": [
+        {
+            "id": "1",
+            "nombre": "Pepe",
+            "localidad": "San Francisco",
+            "fecha_nacimiento": "1990-01-01"
+        },
+        {
+            
+            "id": "2",
+            "nombre": "Sona",
+            "localidad": "Sidney",
+            "fecha_nacimiento": "1990-01-01"
+        },
+        {
+            
+            "id": "3",
+            "nombre": "Carlos",
+            "localidad": "Quebec",
+            "fecha_nacimiento": "1990-01-01"
+        }
+    ]
+  }
