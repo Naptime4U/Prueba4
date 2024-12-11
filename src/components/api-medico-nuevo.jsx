@@ -6,9 +6,9 @@ async function nuevoMedico(formData) {
     'use server'
     const [nombre, especialidad, perfil] = formData.values()
 
-    const response = await fetch('http://localhost:3000/medicos', {
+    const response = await fetch('http://localhost:4000/medicos', {
         method: 'POST',
-        body: JSON.stringify({ nombre, especialidad, perfil: +perfil, createdAt: new Date().toISOString() })
+        body: JSON.stringify({ nombre, especialidad, perfil })
     })
     const data = await response.json()
 
@@ -20,7 +20,7 @@ async function nuevoMedico(formData) {
 
 
 
-function MedicoNew() {
+function MedicoNuevo() {
     return (
         <form className='my-10 grid grid-cols-[150px_auto] gap-4'>
 
@@ -45,4 +45,4 @@ function MedicoNew() {
     );
 }
 
-export default MedicoNew;
+export default MedicoNuevo;

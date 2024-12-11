@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { revalidatePath } from 'next/cache'
 
 async function obtenerMedicos(query) {
-    const response = await fetch('http://localhost:3000/medicos')
+    const response = await fetch('http://localhost:4000/medicos')
     const medicos = await response.json()
 
     // Introducimos un retardo artificial
@@ -17,7 +17,7 @@ async function eliminarMedico(formData) {
     'use server'
     const id = formData.get('id')
 
-    await fetch('http://localhost:3000/medicos/' + id, { method: 'DELETE' })
+    await fetch('http://localhost:4000/medicos/' + id, { method: 'DELETE' })
 
     revalidatePath('/medicos-api')
 }

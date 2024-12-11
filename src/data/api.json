@@ -18,7 +18,8 @@
         "especialiad": "dermatologo",
         "perfil": "residente"
       }
-    ],
+    ]
+    ,
     "pacientes": [
         {
             "id": "1",
