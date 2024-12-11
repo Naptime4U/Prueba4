@@ -4,8 +4,8 @@ import Link from "next/link";
 export default function Home() {
   return (
 <div>
-      <Link href="/alumnos" className="block text-blue-500">Medicos</Link>
-      <Link href="/profesores" className="block text-blue-500">Pacientes</Link>
+      <Link href="/medicos" className="block text-blue-500">Medicos</Link>
+      <Link href="/pacientes" className="block text-blue-500">Pacientes</Link>
     </div>
   );
 }
